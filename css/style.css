@@ -48,6 +48,7 @@ footer {
   height: 75px;
   padding: 30px;
   font-size: 18px;
+  max-width: 100%;
   width: 100%;
 }
 
@@ -129,11 +130,13 @@ text-decoration: none;
         }
     
     table {
-    border: 2px #ff0303 solid;
+    border: 2px #000000 solid;
     text-align: center;
     font-family: 'Nanum Gothic', sans-serif;
     font-family: 'Raleway', sans-serif;
     border-collapse: collapse;
+    width: 100%;
+    
 
     }
     td, th {
